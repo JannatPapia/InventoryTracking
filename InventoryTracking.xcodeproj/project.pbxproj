@@ -13,6 +13,7 @@
 		3733CB0C28F485490064F64C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3733CB0B28F485490064F64C /* ContentView.swift */; };
 		3733CB0E28F485550064F64C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3733CB0D28F485550064F64C /* Assets.xcassets */; };
 		3733CB1228F485550064F64C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3733CB1128F485550064F64C /* Preview Assets.xcassets */; };
+		3733CB1928F723B10064F64C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3733CB1828F723B00064F64C /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3733CB0D28F485550064F64C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3733CB0F28F485550064F64C /* InventoryTracking.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = InventoryTracking.entitlements; sourceTree = "<group>"; };
 		3733CB1128F485550064F64C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3733CB1828F723B00064F64C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		3733CB0328F485490064F64C /* InventoryTracking */ = {
 			isa = PBXGroup;
 			children = (
+				3733CB1828F723B00064F64C /* GoogleService-Info.plist */,
 				3733CB0428F485490064F64C /* InventoryTrackingApp.swift */,
 				3733CB0628F485490064F64C /* Persistence.swift */,
 				3733CB0B28F485490064F64C /* ContentView.swift */,
@@ -135,6 +138,7 @@
 			files = (
 				3733CB1228F485550064F64C /* Preview Assets.xcassets in Resources */,
 				3733CB0E28F485550064F64C /* Assets.xcassets in Resources */,
+				3733CB1928F723B10064F64C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
